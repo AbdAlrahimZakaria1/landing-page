@@ -14,7 +14,7 @@ a {
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   width: auto;
   display: flex;
   flex-direction: column;
@@ -32,8 +32,7 @@ body {
 .header-content {
   display: flex;
   flex-direction: column;
-  padding: 0 200px;
-  flex: auto;
+  margin: 0 auto;
 }
 
 .header-bar {
@@ -46,6 +45,7 @@ body {
 .logo {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: 700;
 }
 
 .header-links {
@@ -67,7 +67,14 @@ body {
   color: #f9faf8;
 }
 
+.website-info-text {
+  color: #f9faf8;
+  font-size: 16px;
+  padding: 12px 0;
+}
+
 .text-content {
+  flex: auto;
   width: 500px;
   height: auto;
 }
@@ -88,4 +95,119 @@ body {
   color: #f9faf8;
   font-weight: 800;
   font-size: 12px;
+}
+
+.information-container {
+  height: 500px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+}
+
+.information-cards {
+  display: flex;
+  gap: 48px;
+  flex: auto;
+}
+
+.card {
+  width: 200px;
+  height: auto;
+  text-align: center;
+}
+
+.info-title {
+  display: flex;
+  flex: auto;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.card-text {
+  margin: 5px;
+}
+
+.quote {
+  height: 300px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e7eb;
+}
+
+.quote-card {
+  width: 900px;
+  font-size: 32px;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.signup-container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-info {
+  display: flex;
+  background-color: #3882f6;
+  width: 1100px;
+  padding: 40px 100px;
+  border-radius: 10px;
+  color: #e6e7eb;
+}
+
+.signup-info .btn-signup {
+  border-color: #e6e7eb;
+  color: #e6e7eb;
+  font-size: 16px;
+  font-weight: 700;
+  border-width: 2px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 36px;
+}
+
+.signup-text .title {
+  font-size: 24px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.signup-text .text {
+  margin-top: 8px;
+  width: 700px;
+  font-size: 16px;
+}
+
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2837;
+  color: #e6e7eb;
+  font-size: 16px;
+  font-weight: 600;
 }
