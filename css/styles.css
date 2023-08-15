@@ -23,7 +23,6 @@ body {
   width: auto;
   display: flex;
   flex-direction: column;
-  /* flex: 1; */
 }
 
 /*learn how to space links with differently without space-between*/
